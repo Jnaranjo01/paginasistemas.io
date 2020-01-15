@@ -1,0 +1,165 @@
+body {
+
+    background-color: #42B881;
+    margin: 0 10%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+
+p  {
+    
+    margin: 0 0 1%;
+    line-height: 1.64em; 
+    font-size : 20px;
+    padding: 0 5%;
+
+}
+
+h2 { 
+
+    text-align: center;
+    font-size: 22px;
+    margin-bottom : 5px; 
+}
+
+ul {list-style-type: circle;}
+
+#main {
+
+    padding-top: 1pc;
+    border-radius: 5%;
+    background-color:  rgb(108, 240, 180);
+    padding-bottom: 1pc;
+
+}
+
+#main ul {
+
+    padding-left: 15%;
+
+}
+
+#main .imagen {
+
+    width: 50%;
+    padding-left: 21%;
+
+}
+
+#main .dosimagen {
+
+    width: 43%;
+    padding-left: 4%;
+    height: 20pc;
+    padding-top: 1pc;
+    border-radius: 60px;
+}
+
+
+
+#menu img{
+
+    width: 100%;
+    height: 13pc;
+
+}
+
+#menu .title{
+
+    width: 80%;
+    height: 13pc;
+    position: absolute;
+    top: 0;
+    left: 44%;
+
+}
+
+#menu .title h1{
+
+    font-size: 4pc;
+    color: wheat;
+
+}
+
+#menu{
+    background-color: black;
+    margin-bottom: 1pc;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 20px 30px;
+}
+
+#menu li{
+    display: inline;
+    margin: 0;
+}
+
+#menu li a{
+    color: white;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 747px){
+    #menu ul{
+        list-style: none;
+        margin: 0;
+        padding: 20px 10px;
+        font-size: 14px;
+    }
+    #menu ul li{
+        margin-right: -3px;
+        display: inline-block;
+        text-align: center;
+        width: 33%;
+    }
+
+    #menu li a{
+        display: list-item;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #menu ul li{
+        width: 100%;
+    }
+    #menu img{
+
+        width: 92%;
+        padding-left: 4%;
+    
+    }
+
+    #menu .title{
+
+        width: 80%;
+        height: 13pc;
+        position: absolute;
+        top: 0;
+        left: 20%;
+        padding-top: 7%;
+    
+    }
+
+    #main .dosimagen {
+
+        width: 67%;
+        padding-left: 16%;
+        height: 11pc;
+        border-radius: 60px;
+        margin-top: 1pc;    
+
+    }
+    
+
+}
